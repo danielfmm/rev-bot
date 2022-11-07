@@ -82,7 +82,6 @@ def login(page):
 def confirm_claim(page):
     is_on = False
     page.goto(URL_find_work_sub)
-    print(page.url)
 
     try:
         page.click(current_project)

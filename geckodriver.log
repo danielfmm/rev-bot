@@ -1199,3 +1199,116 @@ JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, l
 JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
 JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
 JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+1667811401198	geckodriver	INFO	Listening on 127.0.0.1:60905
+1667811401700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60906" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilepNwNfj"
+*** You are running in headless mode.
+1667811402207	Marionette	INFO	Marionette enabled
+1667811402214	Marionette	INFO	Listening on port 60913
+Read port: 60913
+WebDriver BiDi listening on ws://127.0.0.1:60906
+1667811402359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofilepNwNfj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60906/devtools/browser/cebcada5-f7f3-4411-b08b-9c686e4a5e26
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.rev.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.rev.com."
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript error: https://www.directly.com/assets/build/chat.0b54187bb19038d0ffdd.js, line 37: TypeError: t is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/systemjs/6.8.3/system.min.js, line 4: Error: Error loading https://www.rev.com/build/find-work.2c85aab5350af21a044e8a148470beb3.bundle.js (SystemJS Error#3 https://git.io/JvFET#3)
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+ing-port" "63798" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofiletFW3Lo"
+*** You are running in headless mode.
+1667811461035	Marionette	INFO	Marionette enabled
+1667811461043	Marionette	INFO	Listening on port 63805
+Read port: 63805
+WebDriver BiDi listening on ws://127.0.0.1:63798
+1667811461225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\rust_mozprofiletFW3Lo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63798/devtools/browser/2a234bfa-1437-4b3f-82c9-bcc6460becda
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.rev.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.rev.com."
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript error: https://www.directly.com/assets/build/chat.0b54187bb19038d0ffdd.js, line 37: TypeError: t is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/systemjs/6.8.3/system.min.js, line 4: Error: Error loading https://www.rev.com/build/find-work.2c85aab5350af21a044e8a148470beb3.bundle.js (SystemJS Error#3 https://git.io/JvFET#3)
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.jJavaScript warning: https://realtime.getbeamer.com/socket.io/sockJavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.jJavaScript warning: https://realtime.getbeamer.com/socket.io/sockJavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.jJavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+s is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+ket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=3281&account_id=757353&title=Atlas%20-%20Rev%27s%20Subtitles%20Editor&url=https%3A%2F%2Fwww.rev.com%2Fatlas%2Fa%2Fpe8BwCmpK99-ITAML2GUPDjB_4DnioezT9F6-kCzr6jeRfCWtd96giYQdIOnOpbFDJiRBQ&referrer=https%3A%2F%2Fwww.rev.com%2Fworkspace%2Ffindwork%2FSubtitle, line 1: SyntaxError: unexpected token: identifier
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one
+JavaScript warning: https://realtime.getbeamer.com/socket.io/socket.io.min.js, line 0: https://realtime.getbeamer.com/socket.io/socket.io.min.js is being assigned a //# sourceMappingURL, but already has one

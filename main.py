@@ -1,26 +1,19 @@
 import os
 import time
 import json
+time.sleep(5)
+os.system('cmdow "C:\\Windows\\py.exe" /ren "BOT LAUNCHER" /TOP /siz 900 300 /mov 775 340')
+os.system('cmdow "Bot Launcher" /TOP')
+print("######################################################")
+print("###                  BOT LAUNCHER                  ###")
+print("######################################################")
+price_limit = float(input("Escolha um limite mínimo de valor para os projetos: "))
 
-with open('profile.json') as profile_json:
-    profile = json.load(profile_json)
-    profile_json.close()
-
-
-price_limit = profile["price_limit"]
 navegadores_limite = ["edge", "webkit", "selenium_firefox"]
 navegadores_express = ["edge", "webkit", "selenium_firefox_express"]
-
 navegadores = []
 navegadores = navegadores_limite if price_limit > 0.0 else navegadores_express
-
-
-instancias = 12 # deve um numero ser multiplo da quantidade de navegadores existentes
-espera = 30
-print(f"Inicialização automatica de bots com {instancias} instâncias\niniciadoas cada uma de {espera} em {espera} segunddos.")
-multi = int(instancias / len(navegadores))
-navegadores = navegadores * multi
-navegadores.sort()
+sp_continuity = 0
 screen_positions = [
     '0 0',
     '0 200',
@@ -37,19 +30,42 @@ screen_positions = [
     '1200 400',
     '1200 600',
     '1200 800'
+    '1800 0',
+    '1800 200',
+    '1800 400',
+    '1800 600',
+    '1800 800'    
 ]
 n = 0
-time.sleep(1)
-os.system('cmdow "C:\\Windows\\py.exe" /ren "Bot Launcher" /TOP /siz 800 300 /mov 850 700')
-os.system('cmdow "Bot Launcher" /TOP')
-time.sleep(4)
-for navegador in navegadores:
-    nome = navegador.replace('_', ' ').upper()
-    os.system(f"%ComSpec% /C Start /high cmdow /run {navegador}.py")
-    time.sleep(espera)
-    print(f'iniciando {nome} e pausando por {espera} segundos até o próximo...')
-    os.system(f'cmdow "C:\\Windows\\py.exe" /ren {nome} /mov {screen_positions[n]} /siz 600 200') if 'FIREFOX' not in nome else os.system(f'cmdow "Administrator: C:\\Windows\\py.exe" /ren "FIREFOX" /mov {screen_positions[n]} /siz 600 200')
-    n = n + 1
 
-print("Todas as instâncias foram iniciadas, verifique se não ocorreu nenhum erro em seus consoles.")
+while True:
+    if sp_continuity > 19:
+        sp_continuity = 0
+    print("\nEscolha qual bot você quer rodar:")
+    for navegador in navegadores:
+        print(f"{n}. {navegador}")
+        n = n + 1
+    n = 0
+    bot = navegadores[int(input("Qual?\n> "))]
+    print(bot)
+    quantos = int(input("Quantos?\n> "))
+    espera = int(input("Intervalo entre a execução de cada bot.\n> "))
+    nome = bot.replace('_', ' ').upper()
+    
+    for i in range(quantos):
+        print(f"Inicialização automatica de {bot} a cada {espera} segundos.")
+        time.sleep(1)
+        print(f'iniciando {nome} e pausando por {espera} segundos até o próximo...')
+        os.system(f"%ComSpec% /C Start /high cmdow /run {bot}.py")
+        time.sleep(3)
+        os.system(f'cmdow "C:\\Windows\\py.exe" /ren {nome} /mov {screen_positions[i]} /siz 600 200') if 'FIREFOX' not in nome else os.system(f'cmdow "Administrator: C:\\Windows\\py.exe" /ren "FIREFOX" /mov {screen_positions[i]} /siz 600 200')
+        time.sleep(espera)
+        sp_continuity = i + 1
+    o_que_fazer = int(input("O que quer fazer agora?\n0. Sair\n1. Rodar mais bots\n> "))
+    
+    if o_que_fazer == 0:
+        break
+
+
+print("Todas os bots foram iniciados, verifique se não ocorreu nenhum erro em seus consoles.")
 input("")

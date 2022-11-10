@@ -1,5 +1,4 @@
 import os.path
-
 from pushbullet import Pushbullet
 import json
 import time

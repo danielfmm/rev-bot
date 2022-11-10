@@ -1,5 +1,10 @@
 from playwright.sync_api import sync_playwright
 from pushbullet import Pushbullet
+import threading
+from threading import current_thread
+from threading import get_ident
+from threading import get_native_id
+from concurrent.futures import ThreadPoolExecutor
 import json
 import time
 
@@ -70,13 +75,13 @@ def inputc(text):
 
 
 def login(page):
-    printc('Fazendo login...')
+    #printc('Fazendo login...')
     page.goto(URL_login)
     page.fill('id=Email', acc_email)
     page.click('id=next-btn')
     page.fill('id=Password', acc_pass)
     page.click('id=login-btn')
-    printc('Login efetuado.')
+    #printc('Login efetuado.')
 
 
 def confirm_claim(page):
@@ -112,8 +117,8 @@ def block_aggressively(route):
 
 def main():
     with sync_playwright() as p:
-        print('=========/REVBOT-EDGE/========')
-        browser = p.chromium.launch(channel="msedge")
+        
+        browser = p.chromium.launch(channel="msedge", headless=False)
         start_time = time.time()
         page = browser.new_page()
         page.route("**/*", block_aggressively)
@@ -122,12 +127,12 @@ def main():
         page.goto(URL_find_work_sub)
         page.click(popup)
         page.click(pay_max_sort)
-        printc(f'Tempo de execução até monitorar: {(time.time() - start_time)}')
-        printc("Monitorando...")
+        #printc(f'Tempo de execução até monitorar do Edge: {(time.time() - start_time)}')
+        #printc("Monitorando...")
         while True:
             try:
                 assert page.title() != "Rev - Find Work"
-                printc('Projeto encontrado.')
+                printc(f'{thread.get_ident()} Projeto encontrado.')
                 page.click(refresh_job)
                 printc('Atualizou.')
                 page.click(collapse)
@@ -153,13 +158,13 @@ def main():
                 time.sleep(0.04)
 
         browser.close()
-        inputc("Aperte qualquer tecla para fechar...")
+        #inputc("Aperte qualquer tecla para fechar...")
 
 
 def express():
     with sync_playwright() as p:
-        print('======/REVBOT-EDGE-EXPRESS/=====')
-        browser = p.chromium.launch(channel="msedge")
+        
+        browser = p.chromium.launch(channel="msedge", headless=False)
         start_time = time.time()
         page = browser.new_page()
         page.route("**/*", block_aggressively)
@@ -168,22 +173,15 @@ def express():
         page.goto(URL_find_work_sub)
         page.click(popup)
         page.click(pay_max_sort)
-        printc(f'Tempo de execução até monitorar: {(time.time() - start_time)}')
-        printc(f"Monitorando...")
+        #printc(f'Tempo de execução até monitorar: {(time.time() - start_time)}')
+        #printc(f"Monitorando...")
         while True:
             try:
                 assert page.title() != "Rev - Find Work"
-                #printc('Projeto encontrado.')
+                printc(f'{current_thread().name} | Projeto encontrado.')
                 page.click(refresh_job)
                 printc('Atualizou.')
                 page.click(collapse)
-                # printc('Expandiu.')
-                # page.screenshot(path="claiming.png")
-                # current_price = float(page.inner_text(job_price_on_claim).replace('$', ''))
-                # print(current_price)
-                # page.screenshot(path="claimed.png")
-                # printc(f"Conferindo se o valor de {current_price} é maior que o limite de {price_limit}.")
-                # if current_price > price_limit:
                 page.click(claim_button)
                 printc("Clicando em Claim...")
                 assert confirm_claim(page)
@@ -198,5 +196,33 @@ def express():
 
 
 
-main() if price_limit > 0.0 else express()
-inputc("Aperte qualquer tecla para fechar...")
+class EdgeBOT():
+    
+    def testing(self):
+        main()
+        sleep(2)
+        
+    
+    def __init__(self):
+        t = threading.Thread(target=self.testing)
+        t.start()
+
+print('======/REVBOT-EDGE-EXPRESS/=====') if 0.0 <= price_limit else print('=========/REVBOT-EDGE/========')
+    
+for i in range(2):
+    EdgeBOT()
+    printc(f'Iniciando Edge {i}...')
+    time.sleep(2)
+    
+x = 1
+for thread in threading.enumerate(): 
+    if not thread.name == 'MainThread':
+        thread.name = f'Edge {x}'
+        x = x + 1
+        
+    
+while True:
+    printin(f"Monitorando...")
+    time.sleep(1)
+
+

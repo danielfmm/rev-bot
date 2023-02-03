@@ -1,6 +1,0 @@
-{"timestamp":0,"category":"newtab","name":"opened","extra":{"newtab_visit_id":"{a4a4efa2-43fb-4799-8b91-b2f89fc548b7}","source":"about:home"}}
-{"timestamp":499,"category":"newtab","name":"opened","extra":{"newtab_visit_id":"{876a3629-96a8-4712-a279-272a51c25924}","source":"about:home"}}
-{"timestamp":524,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{a4a4efa2-43fb-4799-8b91-b2f89fc548b7}","is_sponsored":"true"}}
-{"timestamp":530,"category":"topsites","name":"impression","extra":{"is_sponsored":"true","newtab_visit_id":"{a4a4efa2-43fb-4799-8b91-b2f89fc548b7}"}}
-{"timestamp":564,"category":"topsites","name":"impression","extra":{"is_sponsored":"true","newtab_visit_id":"{876a3629-96a8-4712-a279-272a51c25924}"}}
-{"timestamp":565,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{876a3629-96a8-4712-a279-272a51c25924}","is_sponsored":"true"}}

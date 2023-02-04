@@ -6,9 +6,6 @@ import threading
 
 my_title = 'POWEREDGE'
 ls = []
-# 1080 / 200 = 5
-# 2500 / 300 = 4
-#################
 
 
 def main():
@@ -93,7 +90,6 @@ def restart():
 	print("Reiniciando os bots...")
 	killbot("all")
 	time.sleep(4)
-	#poweredge(False)
 
 
 def change_limit(new_limit):

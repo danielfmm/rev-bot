@@ -140,10 +140,6 @@ with sync_playwright() as p:
             page.click(collapse)
             page.screenshot(path="etapa3.png")
             current_price = float(page.inner_text(job_price_on_claim).replace('$', ''))
-            #print(current_price)
-            # page.screenshot(path="claimed.png")
-            #printc(f"Valor do projeto {current_price} maior que o limite de {price_limit_grading}.")
-            #if current_price > price_limit_grading:
             page.click(claim_button)
             page.screenshot(path="etapa4.png")
             printc("Clicando em Claim...")
@@ -152,11 +148,6 @@ with sync_playwright() as p:
             printc("Trabalho confirmado!")
             printc("Finalizando...")
             break
-            # else:
-            #     time.sleep(0.1)
-            #     printc('Valor abaixo do limite, esperando 60 segundos para voltar a monitorar.')
-            #     time.sleep(1)
-            #     #send_push(get_project_price(page))
         except:
             time.sleep(0.1)
 

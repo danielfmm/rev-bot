@@ -42,7 +42,7 @@ def print_flush(content):
 
 
 def send_push(totalpay):
-    api_key = "o.gWJiOosLWRj38MOrRzlcKY3cxnjblvdM"
+    api_key = ""
     pb = Pushbullet(api_key)
     pb.push_note('NEW JOB!',
                  'Valor: {0}.'.format(totalpay))
@@ -182,9 +182,9 @@ log_print("\r[{0}] (FIREFOX PID: {1}) Inicializando...".format(timestamp(), os.g
 # # # # # # # # # # # # # # # # #
 #          CONFIGS              #
 # # # # # # # # # # # # # # # # #
-URL = r"https://www.rev.com/account/auth/login"
-acc_email = "robertolmayer2@gmail.com"
-acc_pass = "eurev3vc"
+URL = r""
+acc_email = ""
+acc_pass = ""
 # # # # # # # # # # # # # # # # #
 
 # # # # # # # # # # # # # # # # #

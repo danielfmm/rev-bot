@@ -43,7 +43,7 @@ price_check = profile['price_check'] # float
 
 def send_push(total):
     # Envia aviso pelo pushbullet instalado no celular
-    api_key = "o.gWJiOosLWRj38MOrRzlcKY3cxnjblvdM"
+    api_key = ""
     pb = Pushbullet(api_key)
     pb.push_note('NOVA AVALIAÇÃO!', 'Valor: $%d' % total)
     
@@ -118,8 +118,6 @@ with sync_playwright() as p:
             printc('Atualizou.')
             page.click(collapse)
             current_price = float(page.inner_text(job_price_on_claim).replace('$', ''))
-            #print(current_price)
-            # page.screenshot(path="claimed.png")
             printc(f"Valor do projeto {current_price} maior que o limite de {price_limit_grading}.")
             if current_price > price_limit_grading:
                 page.click(claim_button)
@@ -133,7 +131,6 @@ with sync_playwright() as p:
                 time.sleep(0.1)
                 printc('Valor abaixo do limite, esperando 60 segundos para voltar a monitorar.')
                 time.sleep(30)
-                #send_push(get_project_price(page))
         except:
             printin("Monitorando...")
             time.sleep(30)

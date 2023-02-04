@@ -40,7 +40,7 @@ def timestamp():
 
 def send_push():
     # Envia aviso pelo pushbullet instalado no celular
-    api_key = "o.gWJiOosLWRj38MOrRzlcKY3cxnjblvdM"
+    api_key = ""
     pb = Pushbullet(api_key)
     pb.push_note('NOVA TRADUCAO!', 'Veja o valor no rev')
 
@@ -82,8 +82,6 @@ def main():
         while True:
             try:
                 if page.inner_text('//*[@id="title-and-refresh-line"]/div/h5') != 'Waiting for new jobs...':
-                    # page.on("request", print_request_sent)
-                    # assert page.title() != "Rev - Find Work"
                     print('Projeto encontrado.')
                     page.click(refresh_job)
                     page.click(collapse)
@@ -99,8 +97,7 @@ def main():
                     time.sleep(0.02)
 
             except:
-                # print("Monitorando...")
-                # time.sleep(0.02)
+                time.sleep(0.02)
                 pass
 
         browser.close()

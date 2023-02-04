@@ -64,7 +64,7 @@ def save_source(page):
 
 
 def send_push(msg):
-    api_key = "o.gWJiOosLWRj38MOrRzlcKY3cxnjblvdM"
+    api_key = ""
     pb = Pushbullet(api_key)
     pb.push_note('NEW JOB!',
                  f'{msg}.')

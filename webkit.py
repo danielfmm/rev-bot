@@ -45,7 +45,7 @@ limit_existence = 'ativado: $%d' % price_limit if price_limit > 0.0 else 'desati
 
 def send_push():
     # Envia aviso pelo pushbullet instalado no celular
-    api_key = "o.gWJiOosLWRj38MOrRzlcKY3cxnjblvdM"
+    api_key = ""
     pb = Pushbullet(api_key)
     pb.push_note('NOVA TRADUCAO!', 'CORRE LÁ')
 

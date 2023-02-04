@@ -43,7 +43,7 @@ price_check = profile['price_check'] # float
 
 def send_push(total):
     # Envia aviso pelo pushbullet instalado no celular
-    api_key = "o.gWJiOosLWRj38MOrRzlcKY3cxnjblvdM"
+    api_key = ""
     pb = Pushbullet(api_key)
     pb.push_note('NOVA AVALIAÇÃO!', 'Valor: $%d' % total)
     

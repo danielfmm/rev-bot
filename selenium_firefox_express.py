@@ -52,7 +52,7 @@ def print_flush(content):
 
 
 def send_push(totalpay):
-    api_key = "o.gWJiOosLWRj38MOrRzlcKY3cxnjblvdM"
+    api_key = ""
     pb = Pushbullet(api_key)
     pb.push_note('NEW JOB!',
                  f'Valor: {totalpay}.')
